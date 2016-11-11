@@ -18,10 +18,9 @@ And I type "test" into textbox 'Description' in pop-up 'New Project'
 And I select item "private" in drop-down 'Project Type' in pop-up 'New Project'
 And I click on button "Create" on pop-up "New Project"
 Then I see success notification ""
-And I see that project is added to panel <Projects>
+And I see that project is added to panel Projects
 And I select project in panel 'Projects' in page "Dashboard"
 And I see that all the entered data matches data in page 'Project Settings' for the new project
-|\|
 
 @SC_62376 @REL-869
 Scenario: Edit project
